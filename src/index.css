@@ -15,14 +15,18 @@ body{
     transition: all 0.5s;
 
 }
-
-
-
-.mockup{
-     /* width:900px; */
-    background:url("./images/bg-intro-desktop.svg") no-repeat center;
-    background-position: -70px -170px;
-     transform:translate(190px,-100px); 
+/* herosection background */
+.background{
+    background: url("./images/bg-intro-desktop.svg") no-repeat ;
+    background-size:cover;
+    background-position:-40px -80px ;
+    transform: translate(170px,-80px);
+}
+.background-mobile{
+    background: url("./images/bg-intro-mobile.svg") no-repeat;
+    background-size:cover;
+     background-position:-10px 50px ;
+     transform: translate(10px,-90px);
 }
 
 /*article-section-title  */
@@ -49,3 +53,6 @@ body{
 };
 
 }
+
+
+/* about page */
