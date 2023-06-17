@@ -4,7 +4,7 @@ export default{
         rollupOptions:{
             input:{
                 main:'./index.html',
-                about:'./src/about.html',
+                about: './src/about.html',
             },
         },
     },
